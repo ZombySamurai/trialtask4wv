@@ -1,0 +1,22 @@
+ .postit {
+  font-size:35px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  transform: rotate(-5deg);
+  position: absolute;
+  margin:0 auto;
+  width:255px;
+  height:225px;
+  padding:25px 15px;
+  left:20px;
+  background:#fefabc;
+  box-shadow: 10px 10px 5px grey;
+  line-height:22px;
+  text-align: center;
+}
+.msgtext {
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:350px;
+	float:right;
+	margin-top:50px;
+}
