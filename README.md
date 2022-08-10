@@ -6,8 +6,12 @@ Implemented:
 basic layout
 css classes declared
 text
-
-To be added/finalised:
-
 text position
 spacing
+
+to-do:
+
+maybe look into changing text size for line 2 on right via css class?
+possible improvements
+  layout (text and css graphical element)
+  code readability
