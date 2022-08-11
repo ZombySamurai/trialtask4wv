@@ -12,10 +12,9 @@ spacing
 to-do:
 
 maybe look into changing text size for line 2 on right via css class?
-reduce space between the 2 elements and center whole screen
+post-it color correction?
 
 possible improvements
 
   layout (text and css graphical element)
-  
   code readability
