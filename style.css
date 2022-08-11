@@ -1,25 +1,29 @@
+body {
+	position: fixed;
+	left:500px;
+	right:400px;
+}
 .postit {
 	/* the basic post-it shape */
+  float: left;
   transform: rotate(-7deg);
-  position: absolute;
   top: 30px;
   margin: 0 auto;
   width: 212px;
   height: 186px;
-  padding: 25px 15px;
+  padding: 21px 11px;
   left: 25px;
   background: #ecec00;
   box-shadow: 10px 10px 5px grey;
   line-height: 22px;
+  font-family: cursive;
+  font-size: 33px;
+  text-align: right;
 }
 .ptext {
 /* formatting of text within postit (split because of padding) */
-  font-size: 35px;
-  font-family: cursive;
-/* maybe add another font-family? */
   padding: 15px 35px;
   float: center;
-  text-align: right;
 	}
 .msgtext {
 	/* formatting for message on the right */
@@ -28,4 +32,6 @@
 	width:350px;
 	float:right;
 	margin-top:50px;
+	margin-left: 60px;
+	text-align: left;
 }
