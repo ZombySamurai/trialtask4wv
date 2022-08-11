@@ -21,8 +21,8 @@ body {
   font-size: 33px;
   text-align: right;
   margin-top: 0.8vw;
-  
-}
+	/* see if this can be tightened up? */
+  }
 .ptext {
 /* formatting of text within postit (split because of padding) */
   padding: 15px 35px;
@@ -38,4 +38,5 @@ body {
 	margin-top: 2.2vw;
 	margin-left: 5vw;
 	text-align: left;
+	/* again, maybe tighten this up? */
 }
