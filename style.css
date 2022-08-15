@@ -1,42 +1,44 @@
+html {
+	transform scale(1.1);
+}
 body {
 	position: fixed;
 	margin-left:30vw;
 	margin-right:10vw;
-	/* an attempt at fixing the space between postit and msgtext */
+	resize: both;
+	margin-top: 0.8vw;
+	/* an attempt at centering the page */
 }
 .postit {
 	/* the basic post-it shape */
   float: left;
   transform: rotate(-7deg);
-  top: 30px;
   margin: 0 auto;
   width: 212px;
   height: 186px;
-  padding: 1vw 0vw;
+  padding: 16px 0px;
   left: 25vw;
   background: #ecec00;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 1vw 1vw 0.5vw grey;
   line-height: 22px;
-  font-family: cursive;
-  font-size: 33px;
-  text-align: right;
-  margin-top: 0.8vw;
-	/* see if this can be tightened up? */
-  }
+}
 .ptext {
 /* formatting of text within postit (split because of padding) */
   padding: 15px 35px;
+  position: fixed;
   float: center;
+  font-family: cursive;
+  font-size: 33px;
+  text-align: right;
 	}
 .msgtext {
-	/* formatting for message on the right */
-	position: relative;
-	font-size:80%;
-	font-family: Arial, Helvetica, sans-serif;
-	width:350px;
+/* formatting for message on the right */
 	float:right;
-	margin-top: 2.2vw;
-	margin-left: 5vw;
+	font-size:16px;
+	font-family: Arial, Helvetica, sans-serif;
+	max-width:43.53233830845771vw;
+	margin-top: 6px;
+	margin-left: 80px;
 	text-align: left;
-	/* again, maybe tighten this up? */
+	resize:both;
 }
